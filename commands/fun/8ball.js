@@ -10,7 +10,7 @@ module.exports = {
   usage: "8ball <Question>",
   run: async (client, message, args) => {
     
-    const Responses = ["Yes", "No", "Maybe", "Probably", "Not Sure", "Definitely", "Certainly"], Random = Responses[Math.floor(Math.random () * Responses.length)];
+    const Responses = ["Jā", "Nē", "Varbūt", "Iespējams", "Neesmu drošs par to", "Noteikti", "Certainly"], Random = Responses[Math.floor(Math.random () * Responses.length)];
     const Question = args.join(" ");
 
     if (!Question) return message.channel.send("Please Give Your Question!");

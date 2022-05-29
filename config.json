@@ -1,0 +1,9 @@
+{
+  "prefix" : "=",
+  "db": "mongodb+srv://shaa:GZ20201414@discord-bot.xyw7ecj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "color": "BLUE",
+    "error": "RED",
+    "success": "GREEN"
+
+  
+  }
